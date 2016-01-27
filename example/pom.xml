@@ -12,19 +12,11 @@
 
 
 	<scm>
-		<url>https://github.com/06dhana/github-maven-example</url>
-		<connection>scm:git:git://github.com/06dhana/github-maven-example.git</connection>
+		<url>scm:git:git@github.com:06dhana/github-maven-example.git</url>
+		<connection>scm:git:git@github.com:06dhana/github-maven-example.git</connection>
 		<developerConnection>scm:git:git@github.com:06dhana/github-maven-example.git</developerConnection>
 	</scm>
 
-	<developers>
-		<developer>
-			<email>06dhana@gmail.com</email>
-			<name>Dhanalakshmi Vijayan</name>
-			<url>https://github.com/06dhana</url>
-			<id>06dhana</id>
-		</developer>
-	</developers>
 
   <build>
         <pluginManagement>
@@ -36,11 +28,6 @@
                     <configuration>
                     	<username>06dhana</username>
                     	<password>Dhana!@#1991</password>
-                        <flowInitContext>
-                            <masterBranchName>master</masterBranchName>
-                            <developBranchName>develope</developBranchName>
-                            <featureBranchPrefix>feature</featureBranchPrefix>
-                        </flowInitContext>
                     </configuration>
                 </plugin>
             </plugins>
